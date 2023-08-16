@@ -1,0 +1,9 @@
+import sys
+
+print('please enter 2 numbers')
+
+try:
+    a, b = sys.stdin.read().split()
+    print(int(a) + int(b))
+except Exception as ex:
+    print(f'Wrong stdin. Exeption: "{ex}"')

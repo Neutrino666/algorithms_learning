@@ -1,0 +1,10 @@
+# VSC cashe
+.vscode
+
+# venv
+venv
+.venv
+
+# ENV
+env
+.env
